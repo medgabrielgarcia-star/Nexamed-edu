@@ -1,61 +1,62 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nexamed Edu</title>
-    <link rel="icon" href="./assets/images/logo-nexa-apple-icon.png">
-    <link rel="stylesheet" href="./src/index.css">
-</head>
+    <html lang="es">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Nexamed Edu</title>
+            <link rel="icon" href="./assets/images/logo-nexa-apple-icon.png">
+            <link rel="stylesheet" href="./src/index.css">
+        </head>
 
-<body>
-    <header class="header">
-        <img class="header__img" src="./src/assets/images/logo-horizontal.webp" alt="logo Nexamed">
-        <nav class="header__nav">
-            <ul class="nav__list">
-               <li class="nav__item"><a href="#">Inicio</a></li>
-                <li class="nav__item"><a href="#">Enfermedades</a></li>
-                <li class="nav__item"><a href="#">Diccionario</a></li>
-                <li class="nav__item"><a href="#">Evalúa tu riesgo</a></li>
-            </ul>
-        </nav>
-        <a class="header__btn" href="#">Comenzar gratis</a>
-        <div class="toggle">
-            <svg xmlns="http://www.w3.org/2000/svg" height="45px" viewBox="0 -960 960 960" width="45px" fill="#1f1f1f"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
-        </div>
-    </header>
-
-    <main>
-        <section class="hero__wrap">
-            <div class="wrap__left">
-                <span class="hero__eyebrow">Ecuador - Latinoamérica</span>
-                <h1 class="hero__title">Tu salud en palabras <span>simples</span></h1>
-                <p class="hero__text">Aprende sobre las enfermedades más comunes, entiende tus resultados de laboratorio y cuida tu bienestar - todo explicado como si te lo dijera un amigo</p>
-                <div class="hero__btn">
-                    <a class="hero__btn-explorar" href="#">Explorar enfermedades</a>
-                    <a class="hero__btn-buscar" href="#">Buscar en el diccionario</a>
-                </div>
-                <div class="hero__context">
-                    <p class="context__item">7+ <span>Categorías</span></p>
-                    <p class="context__item">20+ <span>Enfermedades</span></p>
-                    <p class="context__item">500+ <span>Térmicos médicos</span></p>
-                </div>
+        <body>
+            <div class="wrapper">
+                <header class="header">
+                    <img class="header__img" src="./src/assets/images/logo-horizontal.webp" alt="logo Nexamed">
+                    <nav class="header__nav">
+                        <ul class="nav__list">
+                            <li class="nav__item"><a href="#">Inicio</a></li>
+                            <li class="nav__item"><a href="#">Enfermedades</a></li>
+                            <li class="nav__item"><a href="#">Diccionario</a></li>
+                            <li class="nav__item"><a href="#">Evalúa tu riesgo</a></li>
+                        </ul>
+                    </nav>
+                    <a class="header__btn" href="#">Comenzar gratis</a>
+                    <div class="toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="45px" viewBox="0 -960 960 960" width="45px" fill="#1f1f1f"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+                    </div>
+                </header>
+                <main>
+                    <section class="hero__wrap">
+                        <div class="wrap__left">
+                            <span class="hero__eyebrow">Ecuador - Latinoamérica</span>
+                            <h1 class="hero__title">Tu salud en palabras <span>simples</span></h1>
+                            <p class="hero__text">Aprende sobre las enfermedades más comunes, entiende tus resultados de laboratorio y cuida tu bienestar - todo explicado como si te lo dijera un amigo</p>
+                            <div class="hero__btn">
+                                <a class="hero__btn-explorar" href="#">Explorar enfermedades</a>
+                                <a class="hero__btn-buscar" href="#">Buscar en el diccionario</a>
+                            </div>
+                            <div class="hero__context">
+                                <p class="context__item">7+ <span>Categorías</span></p>
+                                <p class="context__item">20+ <span>Enfermedades</span></p>
+                                <p class="context__item">500+ <span>Térmicos médicos</span></p>
+                            </div>
+                        </div>
+                        <div class="wrap__right">
+                            <img src="./src/assets/images/1.png" alt="Ilustración 1" class="slide-img">
+                            <img src="./src/assets/images/3.png" alt="Ilustración 2" class="slide-img">
+                            <img src="./src/assets/images/4.png" alt="Ilustración 3" class="slide-img">
+                            <img src="./src/assets/images/5.png" alt="Ilustración 4" class="slide-img">
+                        </div>
+                    </section>
+                    <article class="search">
+                        <form class="search__form">
+                            <label class="search__label" for="buscar">Diccionario rápido</label>
+                            <input class="search__input" id="buscar" type="text" placeholder="Hematocrito, creatinina, glucosa...">
+                            <input class="search__btn" type="button" value="Buscar término">
+                        </form>
+                    </article>
+                </main>
             </div>
-            <div class="wrap__right">
-                <img src="./src/assets/images/1.png" alt="Ilustración 1" class="slide-img">
-                <img src="./src/assets/images/3.png" alt="Ilustración 2" class="slide-img">
-                <img src="./src/assets/images/4.png" alt="Ilustración 3" class="slide-img">
-                <img src="./src/assets/images/5.png" alt="Ilustración 4" class="slide-img">
-            </div>
-        </section>
-        <!--<article class="search">
-            <form class="search__form">
-                <label class="search__label" for="buscar">Diccionario rápido</label>
-                <input class="search__input" id="buscar" type="text" placeholder="Hematocrito, creatinina, glucosa...">
-                <input class="search__btn" type="button" value="Buscar término">
-        </form>
-        </article>-->
-    </main>
-    <script src="./src/index.js"></script>
-</body>
-</html>
+            <script src="./src/index.js"></script>
+          </body>
+    </html>
